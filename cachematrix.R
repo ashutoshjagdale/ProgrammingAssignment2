@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Set the input x as a matrix
+## and then set the solved value "inv" as a NULL
+## then change every reference to "mean" to "solve"
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -16,8 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## Changed "mean" to "solve" and "m" to "inv"
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   inv <- x$getInverse()
